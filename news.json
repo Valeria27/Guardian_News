@@ -1,0 +1,124 @@
+{  
+  "response":{  
+    "status":"ok",
+    "userTier":"developer",
+    "total":1908403,
+    "startIndex":1,
+    "pageSize":10,
+    "currentPage":1,
+    "pages":190841,
+    "orderBy":"newest",
+    "results":[  
+      {  
+        "id":"sport/2016/nov/18/magnus-carlsen-sergey-karjakin-level-world-title",
+        "type":"article",
+        "sectionId":"sport",
+        "sectionName":"Sport",
+        "webPublicationDate":"2016-11-18T15:40:17Z",
+        "webTitle":"Leonard Barden on Chess",
+        "webUrl":"https://www.theguardian.com/sport/2016/nov/18/magnus-carlsen-sergey-karjakin-level-world-title",
+        "apiUrl":"https://content.guardianapis.com/sport/2016/nov/18/magnus-carlsen-sergey-karjakin-level-world-title",
+        "isHosted":false
+      },
+      {  
+        "id":"sport/live/2016/nov/18/andy-murray-v-stan-wawrinka-atp-world-tour-finals-live",
+        "type":"liveblog",
+        "sectionId":"sport",
+        "sectionName":"Sport",
+        "webPublicationDate":"2016-11-18T15:37:46Z",
+        "webTitle":"Andy Murray v Stan Wawrinka: ATP World Tour Finals – live!",
+        "webUrl":"https://www.theguardian.com/sport/live/2016/nov/18/andy-murray-v-stan-wawrinka-atp-world-tour-finals-live",
+        "apiUrl":"https://content.guardianapis.com/sport/live/2016/nov/18/andy-murray-v-stan-wawrinka-atp-world-tour-finals-live",
+        "isHosted":false
+      },
+      {  
+        "id":"society/2016/nov/18/long-difficult-search-for-a-drug-to-treat-alzheimers-dementia",
+        "type":"article",
+        "sectionId":"society",
+        "sectionName":"Society",
+        "webPublicationDate":"2016-11-18T15:36:24Z",
+        "webTitle":"The long, difficult search for a drug to treat Alzheimer’s and dementia",
+        "webUrl":"https://www.theguardian.com/society/2016/nov/18/long-difficult-search-for-a-drug-to-treat-alzheimers-dementia",
+        "apiUrl":"https://content.guardianapis.com/society/2016/nov/18/long-difficult-search-for-a-drug-to-treat-alzheimers-dementia",
+        "isHosted":false
+      },
+      {  
+        "id":"politics/2016/nov/18/court-allows-scotland-and-wales-to-intervene-in-article-50-case",
+        "type":"article",
+        "sectionId":"politics",
+        "sectionName":"Politics",
+        "webPublicationDate":"2016-11-18T15:33:52Z",
+        "webTitle":"Court allows Scotland and Wales to intervene in article 50 case",
+        "webUrl":"https://www.theguardian.com/politics/2016/nov/18/court-allows-scotland-and-wales-to-intervene-in-article-50-case",
+        "apiUrl":"https://content.guardianapis.com/politics/2016/nov/18/court-allows-scotland-and-wales-to-intervene-in-article-50-case",
+        "isHosted":false
+      },
+      {  
+        "id":"us-news/live/2016/nov/18/donald-trump-cabinet-picks-live",
+        "type":"liveblog",
+        "sectionId":"us-news",
+        "sectionName":"US news",
+        "webPublicationDate":"2016-11-18T15:32:18Z",
+        "webTitle":"Trump cabinet picks: several key posts decided – politics live",
+        "webUrl":"https://www.theguardian.com/us-news/live/2016/nov/18/donald-trump-cabinet-picks-live",
+        "apiUrl":"https://content.guardianapis.com/us-news/live/2016/nov/18/donald-trump-cabinet-picks-live",
+        "isHosted":false
+      },
+      {  
+        "id":"commentisfree/live/2016/nov/18/would-you-want-your-body-frozen-after-death-join-our-live-look-at-the-week",
+        "type":"liveblog",
+        "sectionId":"commentisfree",
+        "sectionName":"Opinion",
+        "webPublicationDate":"2016-11-18T15:27:08Z",
+        "webTitle":"Do you commute for two hours or more? – join our live look at the week",
+        "webUrl":"https://www.theguardian.com/commentisfree/live/2016/nov/18/would-you-want-your-body-frozen-after-death-join-our-live-look-at-the-week",
+        "apiUrl":"https://content.guardianapis.com/commentisfree/live/2016/nov/18/would-you-want-your-body-frozen-after-death-join-our-live-look-at-the-week",
+        "isHosted":false
+      },
+      {  
+        "id":"music/2016/nov/18/mark-murphy-the-jazz-singer-compilation-review",
+        "type":"article",
+        "sectionId":"music",
+        "sectionName":"Music",
+        "webPublicationDate":"2016-11-18T15:24:11Z",
+        "webTitle":"Mark Murphy: The Jazz Singer review – entranced in a world of his own",
+        "webUrl":"https://www.theguardian.com/music/2016/nov/18/mark-murphy-the-jazz-singer-compilation-review",
+        "apiUrl":"https://content.guardianapis.com/music/2016/nov/18/mark-murphy-the-jazz-singer-compilation-review",
+        "isHosted":false
+      },
+      {  
+        "id":"music/2016/nov/18/latin-grammys-jennifer-lopez-marc-anthony",
+        "type":"article",
+        "sectionId":"music",
+        "sectionName":"Music",
+        "webPublicationDate":"2016-11-18T15:20:19Z",
+        "webTitle":"Latin Grammys: Jennifer Lopez steals the show at politically muted awards",
+        "webUrl":"https://www.theguardian.com/music/2016/nov/18/latin-grammys-jennifer-lopez-marc-anthony",
+        "apiUrl":"https://content.guardianapis.com/music/2016/nov/18/latin-grammys-jennifer-lopez-marc-anthony",
+        "isHosted":false
+      },
+      {  
+        "id":"uk-news/2016/nov/18/child-abuse-survivors-group-withdraws-from-contrived-uk-inquiry",
+        "type":"article",
+        "sectionId":"uk-news",
+        "sectionName":"UK news",
+        "webPublicationDate":"2016-11-18T15:18:41Z",
+        "webTitle":"Child abuse survivors' group withdraws from 'contrived' UK inquiry",
+        "webUrl":"https://www.theguardian.com/uk-news/2016/nov/18/child-abuse-survivors-group-withdraws-from-contrived-uk-inquiry",
+        "apiUrl":"https://content.guardianapis.com/uk-news/2016/nov/18/child-abuse-survivors-group-withdraws-from-contrived-uk-inquiry",
+        "isHosted":false
+      },
+      {  
+        "id":"business/live/2016/nov/18/euro-in-record-losing-streak-against-the-dollar-business-live",
+        "type":"liveblog",
+        "sectionId":"business",
+        "sectionName":"Business",
+        "webPublicationDate":"2016-11-18T15:17:42Z",
+        "webTitle":"Mario Draghi hints eurozone stimulus will last - business live",
+        "webUrl":"https://www.theguardian.com/business/live/2016/nov/18/euro-in-record-losing-streak-against-the-dollar-business-live",
+        "apiUrl":"https://content.guardianapis.com/business/live/2016/nov/18/euro-in-record-losing-streak-against-the-dollar-business-live",
+        "isHosted":false
+      }
+    ]
+  }
+}
