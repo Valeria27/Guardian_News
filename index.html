@@ -6,7 +6,9 @@
 </head>
 <body>
 	<div ng-controller= "fetchNewsController">  
-		<h1> The Guardian News
+		
+		<h1> The Guardian News</h1>
+		<button type="submit" ng-click="getNews()">Refresh</button>
 		<h3>{{error}}</h3>
 		<ul>
 			<li ng-repeat="results in response.response.results">
