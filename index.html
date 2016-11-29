@@ -7,29 +7,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-
         <title>The Guardian News Assessment</title>
     </head>
-    <body>
-        <div ng-controller="fetchNewsController">
-            <h1> The Guardian News</h1>
-            <button type="button" ng-click="getNews()">Refresh</button>
-            <h3>{{error}}</h3>
-
-            <accordion>
-                <accordion-panel
-                    ng-repeat="newsItem in newsList"
-                    heading="{{newsItem.webTitle}}"
-                    on-select="onSelectNewsItem(newsItem)"
-                >
-                    {{newsItemDetails}}
-                </accordion-panel>
-            </accordion>
-        <div>
+        <news-list></news-list>
 
         <script src=news-app/module.js></script>
         <script src=news-app/news-list.component.js></script>
         <script src=news-app/accordion.component.js></script>
+        <script src=news-app/news-service.js></script>
     </body>
 </html>

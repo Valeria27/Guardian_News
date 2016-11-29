@@ -1,1 +1,20 @@
- 
+<div>
+    <h1> The Guardian News</h1>
+    <button type="button" ng-click="model.getNewsList()">Refresh</button>
+    <h3>{{model.error}}</h3>
+
+    <accordion>
+        <accordion-panel
+            ng-repeat="newsItem in model.newsList"
+            heading="{{newsItem.webTitle}}"
+            on-select="model.onSelectNewsItem(newsItem)"
+        >
+            <div ng-if="newsItem.newsItemDetails">
+                {{newsItem.newsItemDetails}}
+            </div>
+            <div ng-if="!newsItem.newsItemDetails">
+                Loading...
+            </div>
+        </accordion-panel>
+    </accordion>
+</div>
