@@ -17,4 +17,31 @@
             </div>
         </accordion-panel>
     </accordion>
+    <div>
+        <form name="paginationForm" novalidate="">
+            <button type="button" ng-click="model.goToPreviousPage()" ng-disabled="model.currentPage === 1">
+                < Previous Page
+            </button>
+            <input name="pageFromInput" type="number"
+                ng-model="model.pageFromInput"
+                ng-model-options="{debounce: 500}"
+                min="1"
+                max="{{model.totalPages}}"
+                pattern="\d+"
+                required
+                ng-change="model.onPageFromInputChange()"
+            ></input>
+            <span>of {{model.totalPages | number}} pages</span>
+            <button type="button" ng-click="model.goToNextPage()" ng-disabled="model.currentPage === model.totalPages">
+                Next Page >
+            </button> <br>
+            <!--Error message -->
+            <span class="error" ng-show="paginationForm.pageFromInput.$error.required">This field is required.</span>
+            <span class="error" ng-show="paginationForm.pageFromInput.$error.min">Should be at least 1.</span>
+            <span class="error" ng-show="paginationForm.pageFromInput.$error.max">Should not be more than {{model.totalPages}}.</span>
+            <span class="error" ng-show="paginationForm.pageFromInput.$error.number">Should be number only.</span>
+            <span class="error" ng-show="paginationForm.pageFromInput.$error.pattern">Should be digits only.</span>
+
+        </form>
+    </div>
 </div>
